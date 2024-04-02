@@ -1,0 +1,25 @@
+.card {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    color: #717171;
+    box-shadow: 0 0 10px 0 #13131f38;
+    transition: all 100ms linear;
+    cursor: default;
+}
+
+.card h2 {
+    color: #1A202C;
+    font-size: 26px;
+}
+
+.cardContent {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card:hover {
+    scale: 1.01;
+}
